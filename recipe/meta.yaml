@@ -21,6 +21,7 @@ requirements:
   build:
     - {{ compiler('cxx') }}
     - {{ compiler('fortran') }}
+    - pkg-config
     - python
   host:
     - libblas
