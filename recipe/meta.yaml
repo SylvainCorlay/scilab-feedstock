@@ -32,7 +32,7 @@ requirements:
     - hdf5
     - eigen
     - fftw
-    - tk
+    - tk  # [not osx]
     - xorg-libx11
     - ncurses
     - pcre
