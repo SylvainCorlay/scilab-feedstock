@@ -44,6 +44,7 @@ requirements:
     - libcurl
     - openmp
     - gettext
+    - libmatio
   run:
     # Missing run_exports
     - {{ pin_compatible('arpack', max_pin='x.x') }}
@@ -53,6 +54,7 @@ requirements:
     - {{ pin_compatible('icu', max_pin='x.x') }}
     - {{ pin_compatible('ncurses', max_pin='x.x.x') }}
     - {{ pin_compatible('openmp', max_pin='x.x.x') }}
+    - {{ pin_compatible('libmatio', max_pin='x.x.x') }}
 
 test:
   commands:

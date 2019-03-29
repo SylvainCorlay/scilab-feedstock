@@ -17,7 +17,6 @@ cd scilab
             --disable-build-help \
             --with-eigen-include=${PREFIX}/include/eigen3 \
             --without-modelica \
-            --without-matio \
             ${EXTRA_CONFIGURE_ARGS}
 
 make -j${CPU_COUNT}
