@@ -19,6 +19,10 @@ cd scilab
             --without-modelica \
             ${EXTRA_CONFIGURE_ARGS}
 
+if [[ `uname` == 'Darwin' ]]; then
+  patch -p1 < ${RECIPE_DIR}/osx-make-patch.patch
+fi
+
 make -j${CPU_COUNT}
 
 make install
