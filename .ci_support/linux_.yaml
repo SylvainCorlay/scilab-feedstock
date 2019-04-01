@@ -26,6 +26,8 @@ libcurl:
 - '7.64'
 libiconv:
 - '1.15'
+libmatio:
+- '1.5'
 libxml2:
 - '2.9'
 ncurses:
@@ -38,6 +40,8 @@ pin_run_as_build:
   libcurl:
     max_pin: x
   libiconv:
+    max_pin: x.x
+  libmatio:
     max_pin: x.x
   libxml2:
     max_pin: x.x
