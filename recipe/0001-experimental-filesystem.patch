@@ -1,7 +1,7 @@
 From e3e636cef98b097b8aecb70ed6d003bcb2292c14 Mon Sep 17 00:00:00 2001
 From: Sylvain Corlay <sylvain.corlay@gmail.com>
 Date: Thu, 27 Feb 2020 14:50:04 +0100
-Subject: [PATCH] experimental-filesystem
+Subject: [PATCH 1/2] experimental-filesystem
 
 ---
  scilab/modules/fileio/src/cpp/fullpath.cpp | 14 +++++++-------

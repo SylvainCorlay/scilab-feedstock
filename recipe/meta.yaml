@@ -13,6 +13,7 @@ source:
   patches:
     - 0001-Disable-tcl-tk-version-check.patch
     - 0001-experimental-filesystem.patch  # [linux]
+    - 0002-template-c-linkage.patch  # [linux]
 
 build:
   number: 0
